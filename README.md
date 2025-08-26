@@ -43,7 +43,7 @@ Follow these steps to set up the project on your local machine.
 To run the automated unit tests and verify that the search functionality is working correctly, use the following command from the root directory of the project:
 
 ```bash
-python -m unittest discover -v
+python -m unittest tests/test_movie_search.py -v
 ```
 
 You should see output indicating that all tests passed successfully.
